@@ -1,0 +1,18 @@
+.news {
+  &-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &-title {
+    margin-bottom: 0;
+  }
+  &-content {
+    text-align: start;
+  }
+}
+
+br {
+  padding-bottom: 10px;
+}
+

@@ -1,0 +1,102 @@
+.section-container {
+  min-width: 300px;
+  border-left: gray 1px solid;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 5px rgba(2, 0, 96, 0.25);
+}
+
+@media all and (max-width: 768px) {
+  .section-container{
+    display:none;
+  }
+}
+
+
+
+.menu {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1C1C1E;
+  line-height: 24px;
+  padding: 0 15px;
+}
+
+.nav-element {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 15px;
+  text-decoration: none;
+  &-name {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1C1E;
+  }
+}
+.nav-element:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  cursor: pointer;
+}
+
+.main {
+  background: url('icons/main.svg') no-repeat;
+  display: block;
+  height: 35px;
+  width: 48px;
+}
+
+.address {
+  background: url('icons/address.svg') no-repeat;
+  display: block;
+  height: 35px;
+  width: 48px;
+}
+
+.table {
+  background: url('icons/table.svg') no-repeat;
+  display: block;
+  height: 35px;
+  width: 48px;
+}
+
+.calendar {
+  background: url('icons/calendar.svg') no-repeat;
+  display: block;
+  height: 35px;
+  width: 48px;
+}
+
+.maps {
+  background: url('icons/maps.svg') no-repeat;
+  display: block;
+  height: 35px;
+  width: 48px;
+}
+
+.widgets {
+  background: url('icons/widgets.svg') no-repeat;
+  display: block;
+  height: 35px;
+  width: 48px;
+}
+
+.settings {
+  background: url('icons/settings.svg') no-repeat;
+  display: block;
+  height: 35px;
+  width: 48px;
+}
+
+.exit {
+  background: url('icons/exit.svg') no-repeat;
+  display: block;
+  height: 35px;
+  width: 48px;
+}
